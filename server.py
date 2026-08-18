@@ -76,7 +76,7 @@ class Inventory:
                 return
         print("----No server name matched----")
     def report(self):
-        return f"""Total Servers:{len(self.ser)}
+        return f"""====Total Servers:{len(self.ser)}====
                   Linux Servers: {len([c for c in self.ser if c.os == 'Linux'])}
                   Windows Servers: {len([c for c in self.ser if c.os == 'Windows'])}
                   Online Servers:{len([c for c in self.ser if c.stat == 'Online'])}
