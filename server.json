@@ -1,0 +1,22 @@
+[
+    {
+        "hostname: ": "kani",
+        "IP: ": "12.1.2.1",
+        "OS: ": "Linux",
+        "CPU: ": 32,
+        "RAM: ": 89,
+        "Disk: ": 2222,
+        "Location: ": "ok",
+        "Status: ": "Online"
+    },
+    {
+        "hostname: ": "june",
+        "IP: ": "8.9.9.8",
+        "OS: ": "Linux",
+        "CPU: ": 64,
+        "RAM: ": 899,
+        "Disk: ": 9000,
+        "Location: ": "ok",
+        "Status: ": "Online"
+    }
+]
