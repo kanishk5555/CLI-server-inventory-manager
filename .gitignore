@@ -5,3 +5,4 @@ fol_venv/
 __pycache__/
 .pytest_cache/
 *.pyc
+server_project_steps.txt
