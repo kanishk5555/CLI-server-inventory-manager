@@ -1,7 +1,9 @@
 import sqlite3
+import os
 class Database:
     def __init__(self):
-        self.conn = sqlite3.connect("inventory.db")
+        db_path = os.getenv("DB_PATH", "inventory.db")
+        self.conn = sqlite3.connect(db_path)
         self.cursor = self.conn.cursor()
         self.createtable()
     
