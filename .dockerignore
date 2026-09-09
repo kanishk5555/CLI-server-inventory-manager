@@ -1,0 +1,13 @@
+.coverage
+.venv/
+fol_venv/
+*.db
+*.txt
+__pycache__/
+.pytest_cache/
+*.pyc
+.env
+server_project_steps.txt
+.git/
+.github/
+tests
