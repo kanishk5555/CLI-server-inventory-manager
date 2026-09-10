@@ -2,7 +2,7 @@
 .venv/
 fol_venv/
 *.db
-*.txt
+
 __pycache__/
 .pytest_cache/
 *.pyc

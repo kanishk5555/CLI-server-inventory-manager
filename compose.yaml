@@ -1,0 +1,15 @@
+services:
+  server-inventory:
+    build: .
+    container_name: server-inventory
+    stdin_open: true
+    tty: true
+
+    environment:
+      DB_PATH: /app/data/inventory.db
+
+    volumes:
+      - server_inventory_data:/app/data
+
+volumes:
+  server_inventory_data:
